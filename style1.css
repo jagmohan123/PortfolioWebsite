@@ -92,6 +92,7 @@ a {
     font-weight: bold;
     transition: all 4s;
     position: absolute;
+    margin-bottom: 3%;
 }
 
 .hero-part-left {
@@ -117,10 +118,13 @@ a {
     line-height: 45px;
 }
 
+
 .hero-part-discription {
     margin-top: 1rem;
     width: 70%;
     font-weight: 500;
+    margin-top: -32px;
+    
 }
 
 /* styling of hire me button */
@@ -138,9 +142,11 @@ a {
     position: relative;
     z-index: 1;
 }
-#button:hover{
-border: none;
+
+#button:hover {
+    border: none;
 }
+
 .btn-pink::before {
     content: "";
     position: absolute;
@@ -307,7 +313,7 @@ border: none;
 
 /* Project Section */
 .project-section {
-    background-color: rgb(231, 231, 231);
+    background-color: ffffff88;
     margin-top: 4rem;
 }
 
@@ -335,7 +341,7 @@ border: none;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    box-shadow: 0px 0px 40px #1f1f1f;
+    box-shadow: 0px 0px 40px #292d2d;
 }
 
 .project-card::after {
@@ -457,11 +463,13 @@ border: none;
 }
 
 #project1 {
-    background-image: url(Project1.png);
+    background-image: url(home1.png);
+    box-shadow: 0px 0px 40px #eefeff;
+    background-color: #ffffff88;
 }
 
 #project2 {
-    background-image: url(Project2.png);
+    background-image: url(Project1.png);
     margin-left: 120px;
 }
 
@@ -511,7 +519,7 @@ border: none;
     right: 44%;
     user-select: none;
     overflow-y: hidden;
- 
+
     margin-bottom: 3rem;
 }
 
@@ -565,74 +573,74 @@ border: none;
 
 /* Contact Feild  */
 
-.contactus-form-container{
-    width:100%;
-    background-color: rgb(231,231,231);
-  }
-  
-  .contact-heading{
-    font-size:5em;
-    color:var(--bgOrange);
+.contactus-form-container {
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+.contact-heading {
+    font-size: 5em;
+    color: var(--bgOrange);
     padding-top: 2rem;
-  }
-  
-  .contact-subheding{
-    font-size:2rem;
-    color:#343d68aa;
+}
+
+.contact-subheding {
+    font-size: 2rem;
+    color: #343d68aa;
     text-transform: capitalize;
-  }
-  
-  .contactus-form-container{
-    margin-top:25px;
-    display:flex;
+}
+
+.contactus-form-container {
+    margin-top: 25px;
+    display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .form{
-    display:flex;
+}
+
+.form {
+    display: flex;
     flex-direction: column;
-    gap:30px;
-    width:70%;
+    gap: 30px;
+    width: 70%;
     margin: 2rem 5rem;
-  }
-  
-  .formfield-container{
-    width:100%;
-  }
-  
-  .formfield{
-    width:100%;
-    height:42px;
+}
+
+.formfield-container {
+    width: 100%;
+}
+
+.formfield {
+    width: 100%;
+    height: 42px;
     padding: 0 2rem;
-    font-size:18px;
+    font-size: 18px;
     border-radius: 5px;
     box-shadow: 2px 2px 10px #1f1f1f;
-    font-weight:500;
-    border:none;
-    margin-top:27px;
-  }
-  
-  .formfield-textarea{
-    height:auto;
-    padding-top:1rem;
-  }
-  
-  #submit-btn{
-    border:none;
+    font-weight: 500;
+    border: none;
+    margin-top: 27px;
+}
+
+.formfield-textarea {
+    height: auto;
+    padding-top: 1rem;
+}
+
+#submit-btn {
+    border: none;
     font-size: 1.4rem;
     margin: 1rem 0;
-  }
-  
-  #submit-btn:hover{
-    scale:0.9;
-  }
-  
-  .submit-icon{
-    padding:0 1rem;
-    font-size:1.5rem;
-  }
-  
+}
+
+#submit-btn:hover {
+    scale: 0.9;
+}
+
+.submit-icon {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
 /* Footer Sections */
 footer {
     position: relative;
@@ -749,4 +757,178 @@ footer {
     .project-card:hover .project-content {
         scale: 0.55;
     }
+}
+
+
+@media (max-width:800px) {
+   
+   .hero-part-discription  #dis{
+    max-width: 60%;
+    }
+    .faded-text{
+        padding-left: 6%;
+        font-size: 40px;
+        max-width: 60%;
+        bottom: 70px;
+    }
+    .hero-part-heading {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 26px
+    }
+  .project-section{
+    margin-top: -100px;
+  }
+  .project-sub-heading{
+    overflow: hidden;
+  }
+  #skills{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill-Heading,.skills-subheading{
+    max-width: 40%;
+  }
+ .skills-container-right{
+    
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 100%;
+    padding-right: 33%;
+
+ }
+
+ 
+ .contact-heading{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 56px    
+    
+ }
+ .skillfaide-text{
+    padding-left: 6%;
+    font-size: 2em;
+    max-width: 60%;
+   top: 94%;
+   right: 70%;
+   color: #c5d1d3;
+ }
+ #contacts{
+    width: 100%;
+ }
+ .contact-subheding{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+ }
+ .contact-form-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+ .footer-faded-text{
+    font-size: 24px;
+    /* margin-bottom: 63%; */
+   padding-left: 5%;
+ }
+ .link-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+}
+
+@media (min-width:450px) {
+    .hero-part-heading {
+        margin-top: 0px;
+        display: flex;
+      
+        flex-wrap: wrap;
+        font-size: 26px
+    }
+
+  
+}
+
+
+@media (max-width:800px) {
+
+    .page-header {
+        padding-top: 30px;
+        color: var(--bgOrange);
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .project-container {
+        padding: 5px;
+        margin: 10px;
+        gap: 60px;
+    }
+
+    .project-card {
+        width: 100%;
+        height: 300px;
+    }
+
+    .project-card {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .project-content {
+        scale: 0.5;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+
+    .project-content-left {
+        left: 0;
+    }
+
+    .project-heading {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .project-sub-heading {
+        width: 100%;
+    }
+
+    #project2 {
+        margin-left: 0;
+    }
+
+    #project4 {
+        margin-left: 0;
+    }
+
+    .project-skill-container {
+        width: 100%;
+    }
+
+    .project-skill {
+        width: 35px;
+    }
+
+    .project-card:hover .project-number {
+        display: none;
+    }
+
+    .project-card:hover .project-content {
+        scale: 0.55;
+    }
+
 }
