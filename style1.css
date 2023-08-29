@@ -783,9 +783,11 @@ footer {
   .project-sub-heading{
     overflow: hidden;
   }
-
-    #project2{
-        margin-top:6%;
+    
+ #project2{
+margin-top: 55px;
+  }
+    
   #skills{
     display: flex;
     flex-wrap: wrap;
