@@ -783,10 +783,23 @@ footer {
   .project-sub-heading{
     overflow: hidden;
   }
+    .btn-group{
+    display: flex;
+    margin-bottom: 150px;
+    width: fit-content;
+    flex-wrap: wrap;
+ }
     
  #project2{
 margin-top: 55px;
   }
+     #project3{
+margin-top: 35px;
+  }
+     #project4{
+margin-top: 35px;
+  }
+  
     
   #skills{
     display: flex;
