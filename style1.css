@@ -641,6 +641,42 @@ a {
     font-size: 1.5rem;
 }
 
+
+#em{
+    color: blue;
+}
+
+
+  
+  a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bolder;
+
+  }
+ .skills-subheading .findmeat, a :hover{
+    color:rgb(99, 37, 255);
+    background-color: black;
+    text-decoration: none;
+    font-weight: bolder;
+
+  }
+.findmeat{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center ;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 22px;
+    line-height:0.95cm;
+    background-color: black;
+    width: 400px;
+    border-radius: 10px;
+   
+}
+
 /* Footer Sections */
 footer {
     position: relative;
