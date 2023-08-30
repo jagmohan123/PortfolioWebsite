@@ -948,5 +948,27 @@ margin-top: 35px;
     .project-card:hover .project-content {
         scale: 0.55;
     }
-
+  .findmeat{
+        width: 110%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        word-break:break-all;
+        text-align: justify;
+       
+       margin: 25px 100px 40px 0px;
+       float: left;
+       
+        
+    }
+    .boldR{
+        color: blue;
+    }
+    a:visited {
+        color: rgb(14, 255, 251);
+        background-color: transparent;
+        text-decoration: none;
+        font-weight: bolder;
+    
+      }
 }
